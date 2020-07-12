@@ -106,14 +106,14 @@ Google slide and Google Drive are also great collaboration tool to share updates
 ## Model Performance
 
 ### AutoML API 
-![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AutoML%20test.png?raw=true)
-The R square of this AutoML model is up to 90%. The top 3 important features are population of black people in the county, number of unemployment, population of people not graduated from high school, which could mean that the black community size, unemployment and education are three aspects influencing the police killing. 
+![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AutoML%20percent%20result.png?raw=true)
+The R square of this AutoML model is up to 0.06. The top 3 important features are population of black people in the county, number of unemployment, population of people not graduated from high school, which could mean that the black community size, unemployment and education are three aspects influencing the police killing. 
 
 
 ### Treatment Effects Lasso: Double-Lasso Regression
 
 Our team used Double-Lasso Regression for the analysis because it's a powerful algorithm to explore **causality** in the presence of a high number of controls (http://economics.mit.edu/files/7610). 
 
-One thing we did that is very important here is we controled how we transform the data. For example, we put a log on the population number when regressing against black killing rate. 
+One thing we did that is very important here is we controled how we transform the data. For example, we put a log on the population number when regressing against black killing rate. The other thing is that we used **bootstrap** method to produce a 95% **confidence interval**
 
-From 1st stage of lasso regression, poverty of each race, such as black and hispanic, can be strongly explained by variables like education, gender ratio and employment rate. From 2nd stage of lasso regression, we keep 79 variables and have a strong R-square value of 0.9999. The bootstrap methods shows there is significant effect from the poverty rate on number of killings for each race, but the effect is very close to zero
+From 1st stage of lasso regression, poverty of each race, such as black and hispanic, can be strongly explained by variables like education, gender ratio and employment rate. From 2nd stage of lasso regression, we keep 79 variables and have a strong R-square value of 0.18 (the average of multiple models). The bootstrap methods shows there is significant effect from the education, unemployment on number of killings for each race.
