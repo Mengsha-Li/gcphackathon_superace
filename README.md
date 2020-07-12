@@ -60,6 +60,8 @@ User friendly, BigQuery has many features that save data wranglers' time and eff
 **For data visualization and exploration**
 
 Since all our data is stored in Big Query, it is very convenient for us to do EDA (Exploratory analysis) on Data studio as it can extract directly from BigQuery and put charts from multiple sources on the same report.
+
+We used plots to examine the data distribution, and mark variables with obvious patterns.  
  
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/Data%20Studio.png?raw=true)
 
@@ -68,13 +70,14 @@ Since all our data is stored in Big Query, it is very convenient for us to do ED
 **For modeling collaboration**
 
 #### AutoML API
-First, we used **AutoML API** to generate a benchmark of modeling in a fast and efficient manner. 
+First, we used **AutoML API** to generate a **benchmark** of modeling in a fast and efficient manner. It is very easy to use -  just import from Big query, select target column and let GCP works its magic. 
 
 [Evaluating a model]
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AutoML%20test.png?raw=true)
 
 #### Colaboratory
-Then, we built the prorotype of our own customized model using **Colaboratory**, which supports multiple coding language and gives more flexibility to transform data such as log. Comparing with the result from **AutoML API** as a reference, we can be more confident, critizing about our own model.
+Then, we built the prorotype of our own customized model using **Colaboratory**, which gives more flexibility to transform data such as log or data split. Comparing with the result from **AutoML API** as a reference, we can be more confident and critizing about our own model.
+
 [Evaluating a model]
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/Colab.png?raw=true)
 
@@ -82,13 +85,13 @@ Then, we built the prorotype of our own customized model using **Colaboratory**,
 At last, while iterating the model, **Notebooks API** gives the best experience as it uses Jupyter format and can directly commits to Github. And on top of that we can configurate the computing power based on our needs. 
 
 
-*[GCP Notebook API]* Creating a new instance
+*Creating a new instance*
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AI%20Platform%20-%20Notebook%20Instance.png?raw=true)
 
-*[GCP Notebook API]* Running a model
+*Running a model*
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AI%20Platform%20-%20Notebook.png?raw=true)
 
-*[GCP Notebook API]* Pushing a commit
+*Pushing a commit*
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AI%20Platform%20-%20Git%20Push.png?raw=true)
 
 
