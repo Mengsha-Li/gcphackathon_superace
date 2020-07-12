@@ -18,37 +18,36 @@ Meanwhile, we are fully conscious of the limitations and implications in our ana
 Source of data:
 - [United States Census Bureau](https://www.census.gov/ "United States Census Bureau")
 - [Mapping Police Violence](https://mappingpoliceviolence.org/ "Mapping Police Violence")
-- [Lincoln Institue of Land Policy](https://www.lincolninst.edu/ "Lincoln Institue of Land Policy")
+- [Lincoln Institue of Land Policy] (https://www.lincolninst.edu/)
 Format of source data is csv. Data are imported and stored in Google BigQuery, as data are relational and highly structural.
 
 We cleaned and integrated 5 years (2013-2018) of census data on poverty rate by race and county, data on police killing cases, as well as city budgets, and we joined all three datasets carefully by county. 
 
 
 ## GCP Solution
-For this analytical project, we have various needs in data storage, data cleaning, query, data visualization and exploration, computation, and presentation. Luckily, GCP and Google products provided an whole ecosystemm, end-to-end, for us.
+For this analytical project, we have needs in data storage, data cleaning, query, data visualization and exploration, computation, and presentation. Luckily, GCP and Google products provided an whole ecosystem for that.
 
 We used : 
 ### GCP BigQuery
 **For Data storage, process, and querying**
 
-Sharing the same project, all our team members can stay updated to the latest data without worrying about syncing. 
-Our datasets are huge. However, Bigery takes little time to process each query, leaving us more time to do the analysis.
-Most importantly, it can be connected to almost all the GCP product seamlessly, making it very easy to use multiple tools.
+As a team, the project let us always sync with the latest datasets. Even though the datasets are huge, BigQuery takes little time to process each query, leaving us more time to do the analysis. User friendly, BigQuery has many features that save data wranglers' time and efforts, including auto correlation and click to select. Meanwhile, it can be connected to almost all the GCP product seamlessly, such as google colabratory. 
+
 
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/BigQuery.png?raw=true)
 
 ### Data Studio 
 **For data visualization and exploration**
 
-Directly extracting data from BigQuery, it is very convenient for us to do EDA (Exploratory analysis) on one report file with data from multiple sources. It is very efficient and also provides a complete overview. 
+  Since all our data is stored in Big Query, it is very convenient for us to do EDA (Exploratory analysis) on Data studio as it can extract directly from BigQuery and put charts from multiple sources on the same report. 
  
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/Data%20Studio.png?raw=true)
 
 
 ### GCP AutoML API and Colaboratory 
 **For modeling**
-AutoML is extremely intuitive to use and reliable, so it is a perfect tool for us to generate a model benchmark with AutoML in a fast and efficient manner. 
-Then, we built our own customized model using Colab, which supports multiple coding language. 
+
+We use AutoML to generate a benchmark of modeling in a fast and efficient manner. Then, we built our own customized model using Colab, which supports multiple coding language. 
 Comparing with the result from AutoML, we are very confident about our own model.
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AutoML%20test.png?raw=true)
 
