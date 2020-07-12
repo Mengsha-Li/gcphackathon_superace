@@ -30,6 +30,7 @@ Source of data:
 - [United States Census Bureau](https://www.census.gov/ "United States Census Bureau")
 - [Mapping Police Violence](https://mappingpoliceviolence.org/ "Mapping Police Violence")
 - [Lincoln Institue of Land Policy](https://www.lincolninst.edu/)
+
 Format of source data is csv. Data are imported and stored in Google BigQuery, as data are relational and highly structural.
 
 We cleaned and integrated 5 years (2013-2018) of census data on poverty rate by race and county, data on police killing cases, as well as city budgets, and we joined all three datasets carefully by county. 
