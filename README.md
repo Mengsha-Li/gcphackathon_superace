@@ -24,17 +24,25 @@ Format of source data is csv. Data are imported and stored in Google BigQuery, a
 For this analytical project, we have needs in data storage, data cleaning, query, data visualization and exploration, computation, and presentation. Luckily, GCP and Google products provided an whole ecosystem for that.
 
 We used : 
-### GCP BigQuery for data storage, process, and query
+### GCP BigQuery
+**For Data storage, process, and querying**
+
 As a team, the project let us always sync with the latest datasets. Even though the datasets are huge, BigQuery takes little time to process each query, leaving us more time to do the analysis.
 
-### Data Studio for data visualization and exploration
+### Data Studio 
+**For data visualization and exploration**
+
   Since all our data is stored in Big Query, it is very convenient for us to do EDA (Exploratory analysis) on Data studio as it can extract directly from BigQuery and put charts from multiple sources on the same report. 
   
-### AutoML and Colab for model training
+### AutoML and Colab 
+**For modeling**
+
 We use AutoML to generate a benchmark of modeling in a fast and efficient manner. Then, we built our own customized model using Colab, which supports multiple coding language. 
 Comparing with the result from AutoML, we are very confident about our own model.
 
-### Google Meet and GSuite for meeting and drafting presentation
+### Google Meet and GSuite
+**For communication and drafting presentation**
+
 With only 24 hours in our hand to finish the hackathon, our team needs to stay online communicating with each other most of the time. Google Meet as a free tool provides unlimited time length and great video quality for screen sharing. 
 Google slide and Google Drive are also great collaboration tool to share updates in real time manner. 
 
