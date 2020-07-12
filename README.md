@@ -18,8 +18,11 @@ Meanwhile, we are fully conscious of the limitations and implications in our ana
 Source of data:
 - [United States Census Bureau](https://www.census.gov/ "United States Census Bureau")
 - [Mapping Police Violence](https://mappingpoliceviolence.org/ "Mapping Police Violence")
-
+- [Lincoln Institue of Land Policy] (https://www.lincolninst.edu/)
 Format of source data is csv. Data are imported and stored in Google BigQuery, as data are relational and highly structural.
+
+We cleaned and integrated 5 years (2013-2018) of census data on poverty rate by race and county, data on police killing cases, as well as city budgets, and we joined all three datasets carefully by county. 
+
 
 ## GCP Solution
 For this analytical project, we have needs in data storage, data cleaning, query, data visualization and exploration, computation, and presentation. Luckily, GCP and Google products provided an whole ecosystem for that.
@@ -29,6 +32,7 @@ We used :
 **For Data storage, process, and querying**
 
 As a team, the project let us always sync with the latest datasets. Even though the datasets are huge, BigQuery takes little time to process each query, leaving us more time to do the analysis.
+Most importantly, it can be connected to almost all the GCP product seamlessly, 
 
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/BigQuery.png?raw=true)
 
@@ -49,7 +53,7 @@ Comparing with the result from AutoML, we are very confident about our own model
 
 
 ### Google Meet and GSuite
-**For communication and drafting presentation**
+**For communication and story telling**
 
 With only 24 hours in our hand to finish the hackathon, our team needs to stay online communicating with each other most of the time. Google Meet as a free tool provides unlimited time length and great video quality for screen sharing. 
 Google slide and Google Drive are also great collaboration tool to share updates in real time manner. 
