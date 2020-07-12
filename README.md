@@ -34,7 +34,7 @@ As a team, the project let us always sync with the latest datasets. Even though 
 
   Since all our data is stored in Big Query, it is very convenient for us to do EDA (Exploratory analysis) on Data studio as it can extract directly from BigQuery and put charts from multiple sources on the same report. 
   
-### AutoML and Colab 
+### GCP AutoML API and Colaboratory 
 **For modeling**
 
 We use AutoML to generate a benchmark of modeling in a fast and efficient manner. Then, we built our own customized model using Colab, which supports multiple coding language. 
