@@ -1,10 +1,13 @@
 # Google Cloud Hackathon
 ## Team Super Ace
 
-Andrew Jing
-Breno Albuquerque
-Jacqueline Huang
-Maxine Li
+[Andrew Jing](https://github.com/andrewjing404)
+
+[Breno Albuquerque](https://www.linkedin.com/in/brenoea/)
+
+[Jacqueline Huang](https://github.com/JacquelineHSH)
+
+[Maxine Li](https://github.com/Mengsha-Li)
 
 
 
