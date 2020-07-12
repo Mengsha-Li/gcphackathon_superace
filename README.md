@@ -9,10 +9,6 @@ We want to use our analytical skills and the power of cloud computing to explore
 
 We want to explore alternative solutions to this problem. For example, how reducing poverty, reallocating public spendings, improving education would improve the situation.
 
-<iframe src="https://public.tableau.com/profile/andrew.jing7885#!/vizhome/PoliceKilling/Dashboard1?:embed=yes&:display_count=yes" width = '650' height = '450'></iframe>
-
-
-
 Furthermore, besides black Americans, we also want to pay more attention to other non-white races such as Hispanic Americans. As we see more and more Hispanic immigrants, if the systematic police killing towards them can't be solve quickly, we would only see more and more Hispanic died.
 
 Meanwhile, we are fully conscious of the limitations and implications in our analysis.
