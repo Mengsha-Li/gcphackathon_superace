@@ -88,5 +88,7 @@ Pushing a commit
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AI%20Platform%20-%20Git%20Push.png?raw=true)
 
 
-### Double-Lasso Regression
-Our team used Double-Lasso Regression for the analysis because it's a powerful algorithm to explore causality. From 1st stage of lasso regression, poverty of each race, such as black and hispanic, can be strongly explained by variables like education, gender ratio and employment rate. From 2nd stage of lasso regression, we keep 79 variables and have a strong R-square value of 0.9999. The bootstrap methods shows there is significant effect from the poverty rate on number of killings for each race, but the effect is very close to zero
+### Treatment Effects Lasso: Double-Lasso Regression
+
+
+Our team used Double-Lasso Regression for the analysis because it's a powerful algorithm to explore causality in the presence of a high number of controls (http://economics.mit.edu/files/7610). From 1st stage of lasso regression, poverty of each race, such as black and hispanic, can be strongly explained by variables like education, gender ratio and employment rate. From 2nd stage of lasso regression, we keep 79 variables and have a strong R-square value of 0.9999. The bootstrap methods shows there is significant effect from the poverty rate on number of killings for each race, but the effect is very close to zero
