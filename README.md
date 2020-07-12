@@ -1,9 +1,5 @@
 # Google Cloud Hackathon
 
-# Deck 
-
-https://docs.google.com/presentation/d/1Dedm4BWyedd-pDrdYB6ZlTvJ59oCTOHgrRHfGhzjo9w/edit?usp=sharing
-
 ## Team Super Ace
 
 [Andrew Jing](https://github.com/andrewjing404)
