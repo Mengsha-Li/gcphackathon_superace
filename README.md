@@ -74,4 +74,10 @@ Google slide and Google Drive are also great collaboration tool to share updates
 
 
 ## Model Performance
+
+### AutoML API 
+![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AutoML%20test.png?raw=true)
+The R square of this AutoML model is up to 90%. The top 3 important features are population of black people in the county, number of unemployment, population of people not graduated from high school, which could mean that the black community size, unemployment and education are three aspects influencing the police killing. 
+
+### Double-Lasso Regression
 Our team used Double-Lasso Regression for the analysis because it's a powerful algorithm to explore causality. From 1st stage of lasso regression, poverty of each race, such as black and hispanic, can be strongly explained by variables like education, gender ratio and employment rate. From 2nd stage of lasso regression, we keep 79 variables and have a strong R-square value of 0.9999. The bootstrap methods shows there is significant effect from the poverty rate on number of killings for each race, but the effect is very close to zero
