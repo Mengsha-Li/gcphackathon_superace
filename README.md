@@ -106,8 +106,8 @@ Google slide and Google Drive are also great collaboration tool to share updates
 ## Model Performance
 
 ### AutoML API 
+The R square of this AutoML model is up to **0.06**. The top 3 important features are percentage of black people population in the county,  percentage of white people population in the county,poverty rate of pacific people.
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AutoML%20percent%20result.png?raw=true)
-The R square of this AutoML model is up to 0.06. The top 3 important features are population of black people in the county, number of unemployment, population of people not graduated from high school, which could mean that the black community size, unemployment and education are three aspects influencing the police killing. 
 
 
 ### Treatment Effects Lasso: Double-Lasso Regression
