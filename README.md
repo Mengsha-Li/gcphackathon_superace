@@ -30,6 +30,7 @@ We used :
 
 As a team, the project let us always sync with the latest datasets. Even though the datasets are huge, BigQuery takes little time to process each query, leaving us more time to do the analysis.
 
+
 ### Data Studio 
 **For data visualization and exploration**
 
