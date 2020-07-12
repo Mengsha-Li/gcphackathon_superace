@@ -12,18 +12,15 @@
 
 
 ## Problem Overview
-Police disproportionately kills people of color. If you are a black American, then you would be 2.6X more likely to be killed by police than white people; for Hispanic and Latino Americans, that's 1.5X.
+Police disproportionately kills people of color. Comparing to white people, Hispanics are 1.3x more likely to be killed, native American 1.5x, black people is 2.6x, and Pacific Islanders are 3.7x.
 
-**No matter what's the cause, the FACT that police disproportionately kills people of color itself IS THE PROBLEM.**
+**THE FACT ITSELF IS THE PROBLEM, no matter what's the cause.**
 
-We want to use our analytical skills and the power of cloud computing to explore alternative solutions to this issue, as it's relative clear that educating police on shooting bias didn't solve the problem, and is also hard to quantify the action.
+We want to use our analytical skills and explore how solving some of the social injustice might contribute to the resolution of police killing. 
 
-We want to explore alternative solutions to this problem.
-Here we mainly focus on several aspects, for example, how poverty, public spendings, education have impacted police killing. If the data confirms our assumption, then there can be actionable suggestions, such as reallocating public spending to improve the situation.
+We want to explore how poverty, education, and employment affect police killing. 
 
-Furthermore, besides black Americans, we also want to pay more attention to other non-white races such as Hispanic Americans. As we see more and more Hispanic immigrants, if the systematic police killing towards them can't be solve quickly, we would only see more and more Hispanic suffer from the same situation black people are facing.
-
-Meanwhile, we are fully conscious of the limitations and implications in our analysis.
+Meanwhile, we are fully conscious of the assumptions in the analysis and limitations in the data.
 
 ## Data Gathering Process and Storage Option
 Source of data:
