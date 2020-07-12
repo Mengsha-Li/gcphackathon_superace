@@ -30,25 +30,31 @@ We used :
 
 As a team, the project let us always sync with the latest datasets. Even though the datasets are huge, BigQuery takes little time to process each query, leaving us more time to do the analysis.
 
-![Alt text](relative/GCP Screenshots/BigQuery.png?raw=true "Title")
-![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/BigQuery.pnghttps://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/BigQuery.png?raw=true)
+![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/BigQuery.png?raw=true)
 
 ### Data Studio 
 **For data visualization and exploration**
 
   Since all our data is stored in Big Query, it is very convenient for us to do EDA (Exploratory analysis) on Data studio as it can extract directly from BigQuery and put charts from multiple sources on the same report. 
-  
+ 
+![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/Data%20Studio.png?raw=true)
+
+
 ### GCP AutoML API and Colaboratory 
 **For modeling**
 
 We use AutoML to generate a benchmark of modeling in a fast and efficient manner. Then, we built our own customized model using Colab, which supports multiple coding language. 
 Comparing with the result from AutoML, we are very confident about our own model.
+![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AutoML%20test.png?raw=true)
+
 
 ### Google Meet and GSuite
 **For communication and drafting presentation**
 
 With only 24 hours in our hand to finish the hackathon, our team needs to stay online communicating with each other most of the time. Google Meet as a free tool provides unlimited time length and great video quality for screen sharing. 
 Google slide and Google Drive are also great collaboration tool to share updates in real time manner. 
+![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/Google%20Slide.png?raw=true)
+
 
 
 ## Model Performance
