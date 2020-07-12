@@ -30,6 +30,8 @@ We used :
 
 As a team, the project let us always sync with the latest datasets. Even though the datasets are huge, BigQuery takes little time to process each query, leaving us more time to do the analysis.
 
+![Alt text](relative/GCP Screenshots/BigQuery.png?raw=true "Title")
+![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/BigQuery.pnghttps://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/BigQuery.png?raw=true)
 
 ### Data Studio 
 **For data visualization and exploration**
