@@ -53,12 +53,25 @@ As a team, the project let us always sync with the latest datasets. Even though 
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/Data%20Studio.png?raw=true)
 
 
-### GCP AutoML API and Colaboratory 
-**For modeling**
+### GCP AutoML API,  Colaboratory and Notebooks API  
+**For modeling collaboration**
 
-We use AutoML to generate a benchmark of modeling in a fast and efficient manner. Then, we built our own customized model using Colab, which supports multiple coding language. 
-Comparing with the result from AutoML, we are very confident about our own model.
+First, we used AutoML to generate a benchmark of modeling in a fast and efficient manner. 
+Then, we built the prorotype of our own customized model using Colab, which supports multiple coding language. Comparing with the result from AutoML as a reference, we can be more confident about our own model.
+
+At last, while iterating the model, Notebooks API gives the best experience as we can use it to directly commits to Github and share among team members.
+
+*[GCP AutoML API]* Evaluating a model
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AutoML%20test.png?raw=true)
+
+*[GCP Notebook API]* Creating a new instance
+![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AI%20Platform%20-%20Notebook%20Instance.png?raw=true)
+
+*[GCP Notebook API]* Running a model
+![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AI%20Platform%20-%20Notebook.png?raw=true)
+
+*[GCP Notebook API]* Pushing a commit
+![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AI%20Platform%20-%20Git%20Push.png?raw=true)
 
 
 ### Google Meet and GSuite
@@ -75,17 +88,6 @@ Google slide and Google Drive are also great collaboration tool to share updates
 ### AutoML API 
 ![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AutoML%20test.png?raw=true)
 The R square of this AutoML model is up to 90%. The top 3 important features are population of black people in the county, number of unemployment, population of people not graduated from high school, which could mean that the black community size, unemployment and education are three aspects influencing the police killing. 
-
-
-### Notebooks API
-Creating a new instance  
-![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AI%20Platform%20-%20Notebook%20Instance.png?raw=true)
-
-Running a model. 
-![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AI%20Platform%20-%20Notebook.png?raw=true)
-
-Pushing a commit
-![alt text](https://github.com/Mengsha-Li/gcphackathorn_superace/blob/master/GCP%20Screenshots/AI%20Platform%20-%20Git%20Push.png?raw=true)
 
 
 ### Treatment Effects Lasso: Double-Lasso Regression
