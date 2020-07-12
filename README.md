@@ -5,11 +5,12 @@ Police disproportionately kills people of color. If you are a black American, th
 
 **No matter what's the cause, the FACT that police disproportionately kills people of color itself IS THE PROBLEM.**
 
-We want to use our analytical skills and the power of cloud computing to explore alternative solutions to this issue, as it's relative clear that educating police on shooting bias didn't solve the problem.
+We want to use our analytical skills and the power of cloud computing to explore alternative solutions to this issue, as it's relative clear that educating police on shooting bias didn't solve the problem, and is also hard to quantify the action.
 
-We want to explore alternative solutions to this problem. For example, how reducing poverty, reallocating public spendings, improving education would improve the situation.
+We want to explore alternative solutions to this problem.
+Here we mainly focus on several aspects, for example, how poverty, public spendings, education have impacted police killing. If the data confirms our assumption, then there can be actionable suggestions, such as reallocating public spending to improve the situation.
 
-Furthermore, besides black Americans, we also want to pay more attention to other non-white races such as Hispanic Americans. As we see more and more Hispanic immigrants, if the systematic police killing towards them can't be solve quickly, we would only see more and more Hispanic died.
+Furthermore, besides black Americans, we also want to pay more attention to other non-white races such as Hispanic Americans. As we see more and more Hispanic immigrants, if the systematic police killing towards them can't be solve quickly, we would only see more and more Hispanic suffer from the same situation black people are facing.
 
 Meanwhile, we are fully conscious of the limitations and implications in our analysis.
 
