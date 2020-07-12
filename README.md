@@ -114,6 +114,8 @@ The R square of this AutoML model is up to **0.06**. The top 3 important feature
 
 Our team used Double-Lasso Regression for the analysis because it's a powerful algorithm to explore **causality** in the presence of a high number of controls (http://economics.mit.edu/files/7610). 
 
-One thing we did that is very important here is we controled how we transform the data. For example, we put a log on the population number when regressing against black killing rate. The other thing is that we used **bootstrap** method to produce a 95% **confidence interval**
+One thing we did that is very important here is we controled how we transform the data. For example, we put a log on the population number when regressing against black killing rate to adjust the distribution. The other thing is that we used **bootstrap** method to produce a 95% **confidence interval**
 
-From 1st stage of lasso regression, poverty of each race, such as black and hispanic, can be strongly explained by variables like education, gender ratio and employment rate. From 2nd stage of lasso regression, we keep 79 variables and have a strong R-square value of 0.18 (the average of multiple models). The bootstrap methods shows there is significant effect from the education, unemployment on number of killings for each race.
+From 1st stage of lasso regression, poverty of each race, such as black and hispanic, can be strongly explained by variables like education, gender ratio and employment rate. From 2nd stage of lasso regression, we kept 33 variables and have a strong R-square value of **0.18** (the average of multiple model results). The bootstrap methods shows there is significant effect from the poverty rate, education, unemployment on number of killings for each race. 
+
+For more details, see the deck included. 
